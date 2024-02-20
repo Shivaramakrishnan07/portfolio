@@ -1,0 +1,89 @@
+.App {
+  display: flex;
+  background-color: rgb(14, 41, 84);
+  height: auto;
+}
+@font-face {
+  font-family: "Itim";
+  src: local("Itim"),
+  url("./Components/Fonts/Itim-Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+@font-face {
+  font-family: "Pacifico";
+  src: local("Pacifico"),
+  url("./Components/Fonts/Pacifico-Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+@font-face {
+  font-family: "PermanentMarker";
+  src: local("PermanentMarker"),
+  url("./Components/Fonts/PermanentMarker-Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+@font-face {
+  font-family: "SFPro";
+  src: local("SFPro"),
+  url("./Components/Fonts/SFProText-Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProThin";
+  src: local("SFProThin"),
+  url("./Components/Fonts/SFProDisplay-Thin.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProMedium";
+  src: local("SFProMedium"),
+  url("./Components/Fonts/SFProDisplay-Medium.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProSemiBold";
+  src: local("SFProSemiBold"),
+  url("./Components/Fonts/SFProDisplay-SemiBold.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+@font-face {
+  font-family: "SFProSemiBoldItalic";
+  src: local("SFProSemiBoldItalic"),
+  url("./Components/Fonts/SFProDisplay-SemiboldItalic.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProLight";
+  src: local("SFProLight"),
+  url("./Components/Fonts/SFProText-Light.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProLightItalic";
+  src: local("SFProLightItalic"),
+  url("./Components/Fonts/SFProText-LightItalic.ttf") format("truetype");
+  font-weight: bold;
+ }
+
+@font-face {
+  font-family: "SFProUltraLight";
+  src: local("SFProUltraLight"),
+  url("./Components/Fonts/SFProDisplay-UltraLight.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 
+@font-face {
+  font-family: "Caveat";
+  src: local("Caveat"),
+  url("./Components/Fonts/Caveat-Regular.ttf") format("truetype");
+  font-weight: bold;
+ }
+ 

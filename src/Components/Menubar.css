@@ -1,0 +1,108 @@
+@keyframes glow {
+    from {
+      text-shadow:  0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6;
+    }
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.navbar{   
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: rgb(15, 15, 15);
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+    position: fixed;
+    height: 100vh;
+}
+.menu-main-logo{
+    position: relative;
+}
+#logo{
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+
+    background-image: linear-gradient(
+    to right,
+    rgb(255, 50, 90),
+    rgb(215, 70, 100) 50%,
+    #333 50%
+    );
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    position: relative;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+}
+#logo::before{
+    transition: all 0.3s ease-in-out;
+}
+#logo:hover{
+    background-position: 0;
+}
+#logo:hover::before{
+    width: 100%;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.main-menu{
+    padding: 0.5rem;
+}
+.social-menu{
+    padding: 0.2rem;
+}
+.icons{
+    text-decoration: none;
+    color: rgb(60, 60, 60);
+    margin: 1px;
+    position: relative;
+    margin-top: -4px;
+}
+.icons:hover{
+    transition: all 0.3s ease-out;
+    /* color: rgb(215, 70, 100); */
+    color: rgb(255, 50, 90);
+}
+.eff::before{
+    content: '';
+    width: 0%;
+    height: 3px;
+    /* background: rgb(215, 70, 100); */
+    background-color: rgb(255, 50, 90);
+    position: absolute;
+    left: 0;
+    top: 0px;
+    transition: 0.5s;
+}
+.eff::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    /* background: rgb(215, 70, 100); */
+    background: rgb(255, 50, 90);
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    transition: 0.5s;
+}
+.eff:hover::after{
+    width: 100%;
+}
+.eff:hover::before{
+    width: 100%;
+}
